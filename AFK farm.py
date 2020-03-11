@@ -9,7 +9,7 @@ def click():
         try:
             if keyboard.is_pressed(stop_button):
                 pyautogui.mouseUp(x=960, y=540)
-                print("Время остановки программы: " + str(clock.hour) + "ч " + str(clock.minute) + "мин")
+                print("Stop time: " + str(clock.hour) + "h " + str(clock.minute) + "min")
                 break
         except:
             break
